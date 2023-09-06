@@ -4,7 +4,7 @@ import os
 
 port = 465
 smtp_server = "smtp.gmail.com"
-SENDER = "Do not reply"
+SENDER = 'Do not reply'
 USERNAME = os.environ.get('USER_EMAIL')
 PASSWORD = os.environ.get('USER_PASSWORD')
 message = """\
